@@ -1,8 +1,18 @@
 import React from 'react';
+import {About,Footer,Header,Skills,Testimonial,Work} from './Container'
+import { Navbar } from './Components/Navbar';
 
 const App = () => {
   return (
-    <h1>App</h1>
+    <div className='app'>
+      <Navbar/>
+      <Header/>
+      <About/>
+      <Work/>
+      <Skills/>
+      <Testimonial/>
+      <Footer/>
+    </div>
   )
 };
 
